@@ -1,0 +1,9 @@
+[package]
+name = "route"
+version = "0.1.0"
+edition = "2024"
+description = "The Route Command Explains IPv4 Route Selection from Saved Windows Routing Tables, Showing How Prefix Length and Metric Determine the Next Hop"
+keywords = ["parsonlabs", "windows", "networking", "cli", "rust"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
